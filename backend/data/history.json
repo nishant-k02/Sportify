@@ -1,0 +1,1522 @@
+[
+  {
+    "username": "Adi123",
+    "query": "Chicago",
+    "timestamp": "2025-04-22T17:56:12.302Z",
+    "results": [
+      {
+        "id": 1,
+        "title": "Saint Joseph's Hawks at Loyola Chicago Ramblers Mens Basketball",
+        "location": "Gentile Arena·Chicago, IL"
+      },
+      {
+        "id": 3,
+        "title": "Indiana State Sycamores at UIC Flames Mens Basketball",
+        "location": "Credit Union 1 Arena at UIC·Chicago, IL"
+      },
+      {
+        "id": 4,
+        "title": "Seton Hall Pirates at DePaul Blue Demons Womens Basketball",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 5,
+        "title": "Manitoba Moose at Chicago Wolves",
+        "location": "Allstate Arena·Rosemont, IL"
+      },
+      {
+        "id": 7,
+        "title": "Seton Hall Pirates at DePaul Blue Demons Mens Basketball",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 8,
+        "title": "Miami Heat at Chicago Bulls",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 9,
+        "title": "St. Bonaventure Bonnies at Loyola Chicago Ramblers Mens Basketball",
+        "location": "Gentile Arena·Chicago, IL"
+      },
+      {
+        "id": 11,
+        "title": "Illinois State Redbirds at UIC Flames Mens Basketball",
+        "location": "Credit Union 1 Arena at UIC·Chicago, IL"
+      },
+      {
+        "id": 12,
+        "title": "Villanova Wildcats at DePaul Blue Demons Mens Basketball",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 13,
+        "title": "Edmonton Oilers at Chicago Blackhawks",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 14,
+        "title": "Murray State Racers at UIC Flames Womens Basketball",
+        "location": "Credit Union 1 Arena at UIC·Chicago, IL"
+      },
+      {
+        "id": 16,
+        "title": "Nashville Predators at Chicago Blackhawks",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 17,
+        "title": "Golden State Warriors at Chicago Bulls",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 18,
+        "title": "Belmont Bruins at UIC Flames Womens Basketball",
+        "location": "Credit Union 1 Arena at UIC·Chicago, IL"
+      },
+      {
+        "id": 20,
+        "title": "Detroit Pistons at Chicago Bulls",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 21,
+        "title": "Villanova Wildcats at DePaul Blue Demons Womens Basketball",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 22,
+        "title": "Detroit Pistons at Chicago Bulls",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 23,
+        "title": "Saint Louis Billikens at Loyola Chicago Ramblers Mens Basketball",
+        "location": "Gentile Arena·Chicago, IL"
+      },
+      {
+        "id": 25,
+        "title": "Cleveland Monsters at Chicago Wolves",
+        "location": "Allstate Arena·Rosemont, IL"
+      },
+      {
+        "id": 26,
+        "title": "Missouri State Bears at UIC Flames Mens Basketball",
+        "location": "Credit Union 1 Arena at UIC·Chicago, IL"
+      },
+      {
+        "id": 28,
+        "title": "Cleveland Monsters at Chicago Wolves",
+        "location": "Allstate Arena·Rosemont, IL"
+      },
+      {
+        "id": 29,
+        "title": "St. John's Red Storm at DePaul Blue Demons Mens Basketball",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 30,
+        "title": "Milwaukee Admirals at Chicago Wolves",
+        "location": "Allstate Arena·Rosemont, IL"
+      },
+      {
+        "id": 32,
+        "title": "Indiana State Sycamores at UIC Flames Womens Basketball",
+        "location": "Credit Union 1 Arena at UIC·Chicago, IL"
+      },
+      {
+        "id": 33,
+        "title": "Dayton Flyers at Loyola Chicago Ramblers Mens Basketball",
+        "location": "Gentile Arena·Chicago, IL"
+      },
+      {
+        "id": 34,
+        "title": "Evansville Purple Aces at UIC Flames Mens Basketball",
+        "location": "Credit Union 1 Arena at UIC·Chicago, IL"
+      },
+      {
+        "id": 35,
+        "title": "Phoenix Suns at Chicago Bulls",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 36,
+        "title": "Iowa Wild at Chicago Wolves",
+        "location": "Allstate Arena·Rosemont, IL"
+      },
+      {
+        "id": 37,
+        "title": "Butler Bulldogs at DePaul Blue Demons Mens Basketball",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 38,
+        "title": "Creighton Bluejays at DePaul Blue Demons Womens Basketball",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 39,
+        "title": "Evansville Purple Aces at UIC Flames Womens Basketball",
+        "location": "Credit Union 1 Arena at UIC·Chicago, IL"
+      },
+      {
+        "id": 40,
+        "title": "Rockford Icehogs at Chicago Wolves",
+        "location": "Allstate Arena·Rosemont, IL"
+      },
+      {
+        "id": 41,
+        "title": "Toronto Maple Leafs at Chicago Blackhawks",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 42,
+        "title": "LA Clippers at Chicago Bulls",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 43,
+        "title": "George Washington Revolutionaries at Loyola Chicago Ramblers Mens Basketball",
+        "location": "Gentile Arena·Chicago, IL"
+      },
+      {
+        "id": 45,
+        "title": "Toronto Raptors at Chicago Bulls",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 49,
+        "title": "D.C. United at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 52,
+        "title": "St. John's Red Storm at DePaul Blue Demons Womens Basketball",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 53,
+        "title": "Valparaiso Beacons at UIC Flames Mens Basketball",
+        "location": "Credit Union 1 Arena at UIC·Chicago, IL"
+      },
+      {
+        "id": 55,
+        "title": "Los Angeles Kings at Chicago Blackhawks",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 57,
+        "title": "Cleveland Cavaliers at Chicago Bulls",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 58,
+        "title": "Ottawa Senators at Chicago Blackhawks",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 59,
+        "title": "Davidson Wildcats at Loyola Chicago Ramblers Mens Basketball",
+        "location": "Gentile Arena·Chicago, IL"
+      },
+      {
+        "id": 60,
+        "title": "Northern Iowa Panthers at UIC Flames Womens Basketball",
+        "location": "Credit Union 1 Arena at UIC·Chicago, IL"
+      },
+      {
+        "id": 61,
+        "title": "Utah Hockey Club at Chicago Blackhawks",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 62,
+        "title": "Georgetown Hoyas at DePaul Blue Demons Mens Basketball",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 63,
+        "title": "Drake Bulldogs at UIC Flames Womens Basketball",
+        "location": "Credit Union 1 Arena at UIC·Chicago, IL"
+      },
+      {
+        "id": 64,
+        "title": "Grand Rapids Griffins at Chicago Wolves",
+        "location": "Allstate Arena·Rosemont, IL"
+      },
+      {
+        "id": 65,
+        "title": "Texas Stars at Chicago Wolves",
+        "location": "Allstate Arena·Rosemont, IL"
+      },
+      {
+        "id": 66,
+        "title": "Indiana Pacers at Chicago Bulls",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 67,
+        "title": "Manitoba Moose at Chicago Wolves",
+        "location": "Allstate Arena·Rosemont, IL"
+      },
+      {
+        "id": 68,
+        "title": "Brooklyn Nets at Chicago Bulls",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 69,
+        "title": "Hershey Bears at Chicago Wolves",
+        "location": "Allstate Arena·Rosemont, IL"
+      },
+      {
+        "id": 70,
+        "title": "Hershey Bears at Chicago Wolves",
+        "location": "Allstate Arena·Rosemont, IL"
+      },
+      {
+        "id": 71,
+        "title": "Seattle Kraken at Chicago Blackhawks",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 72,
+        "title": "Los Angeles Kings at Chicago Blackhawks",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 73,
+        "title": "Texas Stars at Chicago Wolves",
+        "location": "Allstate Arena·Rosemont, IL"
+      },
+      {
+        "id": 74,
+        "title": "Philadelphia Flyers at Chicago Blackhawks",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 75,
+        "title": "Texas Stars at Chicago Wolves",
+        "location": "Allstate Arena·Rosemont, IL"
+      },
+      {
+        "id": 76,
+        "title": "New Jersey Devils at Chicago Blackhawks",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 77,
+        "title": "Los Angeles Angels at Chicago White Sox - Opening Day",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 78,
+        "title": "Los Angeles Lakers at Chicago Bulls",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 79,
+        "title": "Vegas Golden Knights at Chicago Blackhawks",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 80,
+        "title": "Los Angeles Angels at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 81,
+        "title": "Coachella Valley Firebirds at Chicago Wolves",
+        "location": "Allstate Arena·Rosemont, IL"
+      },
+      {
+        "id": 82,
+        "title": "Dallas Mavericks at Chicago Bulls",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 83,
+        "title": "CF Montreal at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 84,
+        "title": "Los Angeles Angels at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 85,
+        "title": "Utah Hockey Club at Chicago Blackhawks",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 86,
+        "title": "Racing Louisville FC at Chicago Stars FC",
+        "location": "SeatGeek Stadium·Bridgeview, IL"
+      },
+      {
+        "id": 87,
+        "title": "Coachella Valley Firebirds at Chicago Wolves",
+        "location": "Allstate Arena·Rosemont, IL"
+      },
+      {
+        "id": 88,
+        "title": "Minnesota Twins at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 89,
+        "title": "Minnesota Twins at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 90,
+        "title": "Toronto Raptors at Chicago Bulls",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 91,
+        "title": "Minnesota Twins at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 92,
+        "title": "Colorado Avalanche at Chicago Blackhawks",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 93,
+        "title": "San Diego Padres at Chicago Cubs - Home Opener",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 95,
+        "title": "Portland Trail Blazers at Chicago Bulls",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 96,
+        "title": "San Diego Padres at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 97,
+        "title": "San Diego Padres at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 98,
+        "title": "Pittsburgh Penguins at Chicago Blackhawks",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 99,
+        "title": "Texas Rangers at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 100,
+        "title": "Texas Rangers at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 101,
+        "title": "Texas Rangers at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 102,
+        "title": "Miami Heat at Chicago Bulls",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 103,
+        "title": "Boston Red Sox at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 104,
+        "title": "New Japan Pro Wrestling",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 105,
+        "title": "Washington Wizards at Chicago Bulls",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 106,
+        "title": "Boston Red Sox at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 107,
+        "title": "Winnipeg Jets at Chicago Blackhawks",
+        "location": "United Center·Chicago, IL"
+      },
+      {
+        "id": 108,
+        "title": "Boston Red Sox at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 109,
+        "title": "Texas Stars at Chicago Wolves",
+        "location": "Allstate Arena·Rosemont, IL"
+      },
+      {
+        "id": 110,
+        "title": "Inter Miami CF at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 111,
+        "title": "Athletics at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 112,
+        "title": "Athletics at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 113,
+        "title": "Athletics at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 114,
+        "title": "Arizona Diamondbacks at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 115,
+        "title": "Arizona Diamondbacks at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 116,
+        "title": "Rockford Icehogs at Chicago Wolves",
+        "location": "Allstate Arena·Rosemont, IL"
+      },
+      {
+        "id": 117,
+        "title": "FC Cincinnati at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 118,
+        "title": "Arizona Diamondbacks at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 119,
+        "title": "Los Angeles Dodgers at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 120,
+        "title": "Los Angeles Dodgers at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 121,
+        "title": "Philadelphia Phillies at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 122,
+        "title": "Philadelphia Phillies at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 123,
+        "title": "San Diego Wave FC at Chicago Stars FC",
+        "location": "SeatGeek Stadium·Bridgeview, IL"
+      },
+      {
+        "id": 124,
+        "title": "Philadelphia Phillies at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 125,
+        "title": "Milwaukee Brewers at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 126,
+        "title": "Milwaukee Brewers at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 127,
+        "title": "Milwaukee Brewers at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 128,
+        "title": "Houston Astros at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 129,
+        "title": "Houston Astros at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 130,
+        "title": "Orlando City SC at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 131,
+        "title": "Houston Astros at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 132,
+        "title": "San Francisco Giants at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 133,
+        "title": "San Francisco Giants at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 134,
+        "title": "San Francisco Giants at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 136,
+        "title": "Miami Marlins at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 137,
+        "title": "Washington Spirit at Chicago Stars FC",
+        "location": "SeatGeek Stadium·Bridgeview, IL"
+      },
+      {
+        "id": 138,
+        "title": "Atlanta United FC at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 139,
+        "title": "Miami Marlins at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 140,
+        "title": "Miami Marlins at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 141,
+        "title": "Miami Marlins at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 142,
+        "title": "Miami Marlins at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 144,
+        "title": "Miami Marlins at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 146,
+        "title": "Chicago White Sox at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 149,
+        "title": "Chicago White Sox at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 152,
+        "title": "Chicago White Sox at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 153,
+        "title": "Seattle Mariners at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 154,
+        "title": "Seattle Mariners at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 155,
+        "title": "Seattle Mariners at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 156,
+        "title": "New York Liberty at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 157,
+        "title": "Texas Rangers at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 158,
+        "title": "Texas Rangers at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 159,
+        "title": "Kansas City Current at Chicago Stars FC",
+        "location": "SeatGeek Stadium·Bridgeview, IL"
+      },
+      {
+        "id": 160,
+        "title": "Texas Rangers at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 161,
+        "title": "Colorado Rockies at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 162,
+        "title": "Colorado Rockies at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 163,
+        "title": "Colorado Rockies at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 164,
+        "title": "Dallas Wings at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 165,
+        "title": "Cincinnati Reds at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 166,
+        "title": "Chicago Dogs at Gary SouthShore RailCats",
+        "location": "U.S. Steel Yard·Gary, IN"
+      },
+      {
+        "id": 167,
+        "title": "Cincinnati Reds at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 168,
+        "title": "Cincinnati Reds at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 169,
+        "title": "Detroit Tigers at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 171,
+        "title": "Detroit Tigers at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 173,
+        "title": "Detroit Tigers at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 175,
+        "title": "Detroit Tigers at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 176,
+        "title": "Kansas City Royals at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 177,
+        "title": "Kansas City Royals at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 178,
+        "title": "Commissioners Cup: Indiana Fever at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 179,
+        "title": "Kansas City Royals at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 180,
+        "title": "Pittsburgh Pirates at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 181,
+        "title": "Pittsburgh Pirates at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 183,
+        "title": "Pittsburgh Pirates at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 185,
+        "title": "Nashville SC at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 187,
+        "title": "Pittsburgh Pirates at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 188,
+        "title": "St. Louis Cardinals at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 189,
+        "title": "Commissioners Cup: Washington Mystics at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 190,
+        "title": "Milwaukee Brewers at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 191,
+        "title": "St. Louis Cardinals at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 192,
+        "title": "Milwaukee Brewers at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 193,
+        "title": "St. Louis Cardinals at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 194,
+        "title": "Milwaukee Brewers at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 195,
+        "title": "Seattle Mariners at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 196,
+        "title": "Phoenix Mercury at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 197,
+        "title": "Seattle Mariners at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 199,
+        "title": "Seattle Mariners at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 200,
+        "title": "Arizona Diamondbacks at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 201,
+        "title": "Arizona Diamondbacks at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 202,
+        "title": "Los Angeles Sparks at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 203,
+        "title": "Arizona Diamondbacks at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 204,
+        "title": "Philadelphia Union at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 206,
+        "title": "San Francisco Giants at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 207,
+        "title": "San Francisco Giants at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 209,
+        "title": "Charlotte FC at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 211,
+        "title": "San Francisco Giants at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 212,
+        "title": "Cleveland Guardians at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 213,
+        "title": "Cleveland Guardians at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 214,
+        "title": "Cleveland Guardians at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 215,
+        "title": "St. Louis Cardinals at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 216,
+        "title": "NASCAR Chicago Street Race - 2 Day Pass",
+        "location": "Chicago Street Race Course·Chicago, IL"
+      },
+      {
+        "id": 217,
+        "title": "St. Louis Cardinals at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 218,
+        "title": "NASCAR Xfinity Series at Chicago Street Race Course",
+        "location": "Chicago Street Race Course·Chicago, IL"
+      },
+      {
+        "id": 219,
+        "title": "NASCAR Cup Series at Chicago Street Race",
+        "location": "Chicago Street Race Course·Chicago, IL"
+      },
+      {
+        "id": 220,
+        "title": "St. Louis Cardinals at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 221,
+        "title": "Toronto Blue Jays at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 222,
+        "title": "Toronto Blue Jays at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 223,
+        "title": "Toronto Blue Jays at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 224,
+        "title": "Dallas Wings at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 225,
+        "title": "Cleveland Guardians at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 226,
+        "title": "Cleveland Guardians at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 228,
+        "title": "Minnesota Lynx at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 229,
+        "title": "Cleveland Guardians at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 230,
+        "title": "San Diego FC at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 231,
+        "title": "Cleveland Guardians at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 232,
+        "title": "Minnesota Lynx at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 233,
+        "title": "Atlanta Dream at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 234,
+        "title": "Boston Red Sox at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 235,
+        "title": "Boston Red Sox at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 236,
+        "title": "Boston Red Sox at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 237,
+        "title": "Kansas City Royals at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 239,
+        "title": "Kansas City Royals at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 241,
+        "title": "Kansas City Royals at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 243,
+        "title": "Seattle Storm at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 245,
+        "title": "Chicago Cubs at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 246,
+        "title": "Indiana Fever at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 247,
+        "title": "Chicago Cubs at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 249,
+        "title": "New York Red Bulls at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 251,
+        "title": "Chicago Cubs at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 252,
+        "title": "Philadelphia Phillies at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 253,
+        "title": "Philadelphia Phillies at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 254,
+        "title": "Philadelphia Phillies at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 255,
+        "title": "Baltimore Orioles at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 256,
+        "title": "Golden State Valkyries at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 257,
+        "title": "NJ/NY Gotham FC at Chicago Stars FC",
+        "location": "SeatGeek Stadium·Bridgeview, IL"
+      },
+      {
+        "id": 258,
+        "title": "Baltimore Orioles at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 259,
+        "title": "Baltimore Orioles at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 260,
+        "title": "Phoenix Mercury at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 261,
+        "title": "Cincinnati Reds at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 262,
+        "title": "Washington Mystics at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 263,
+        "title": "Cincinnati Reds at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 264,
+        "title": "Cincinnati Reds at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 265,
+        "title": "Atlanta Dream at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 267,
+        "title": "Cleveland Guardians at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 268,
+        "title": "Cleveland Guardians at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 270,
+        "title": "Los Angeles Football Club at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 271,
+        "title": "Bay FC at Chicago Stars FC",
+        "location": "SeatGeek Stadium·Bridgeview, IL"
+      },
+      {
+        "id": 272,
+        "title": "Cleveland Guardians at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 273,
+        "title": "Detroit Tigers at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 274,
+        "title": "Detroit Tigers at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 275,
+        "title": "Detroit Tigers at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 276,
+        "title": "The Firefighters at Savannah Bananas",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 277,
+        "title": "Pittsburgh Pirates at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 278,
+        "title": "Golden State Valkyries at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 279,
+        "title": "The Firefighters at Savannah Bananas",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 280,
+        "title": "Pittsburgh Pirates at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 281,
+        "title": "St. Louis CITY SC at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 282,
+        "title": "Pittsburgh Pirates at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 283,
+        "title": "Milwaukee Brewers at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 284,
+        "title": "Seattle Storm at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 285,
+        "title": "Milwaukee Brewers at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 286,
+        "title": "Milwaukee Brewers at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 287,
+        "title": "Milwaukee Brewers at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 288,
+        "title": "Minnesota Twins at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 289,
+        "title": "North Carolina Courage at Chicago Stars FC",
+        "location": "SeatGeek Stadium·Bridgeview, IL"
+      },
+      {
+        "id": 290,
+        "title": "Connecticut Sun at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 291,
+        "title": "Minnesota Twins at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 292,
+        "title": "Minnesota Twins at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 293,
+        "title": "Kansas City Royals at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 294,
+        "title": "Las Vegas Aces at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 296,
+        "title": "Kansas City Royals at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 298,
+        "title": "Kansas City Royals at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 300,
+        "title": "New York Yankees at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 301,
+        "title": "New York Yankees at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 302,
+        "title": "New York Yankees at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 303,
+        "title": "New York Yankees at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 304,
+        "title": "Atlanta Braves at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 306,
+        "title": "Atlanta Braves at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 307,
+        "title": "Atlanta Braves at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 308,
+        "title": "Connecticut Sun at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 309,
+        "title": "Washington Nationals at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 311,
+        "title": "Washington Nationals at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 312,
+        "title": "New England Revolution at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 313,
+        "title": "Washington Nationals at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 314,
+        "title": "Tampa Bay Rays at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 315,
+        "title": "Tampa Bay Rays at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 316,
+        "title": "Tampa Bay Rays at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 317,
+        "title": "New York Liberty at Chicago Sky",
+        "location": "Wintrust Arena·Chicago, IL"
+      },
+      {
+        "id": 318,
+        "title": "Tampa Bay Rays at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 320,
+        "title": "Tampa Bay Rays at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 321,
+        "title": "New York City FC at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 322,
+        "title": "Tampa Bay Rays at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 323,
+        "title": "Portland Thorns FC at Chicago Stars FC",
+        "location": "SeatGeek Stadium·Bridgeview, IL"
+      },
+      {
+        "id": 324,
+        "title": "Baltimore Orioles at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 325,
+        "title": "Baltimore Orioles at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 326,
+        "title": "Baltimore Orioles at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 327,
+        "title": "San Diego Padres at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 328,
+        "title": "San Diego Padres at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 329,
+        "title": "San Diego Padres at Chicago White Sox",
+        "location": "Rate Field·Chicago, IL"
+      },
+      {
+        "id": 330,
+        "title": "New York Mets at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 331,
+        "title": "New York Mets at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 332,
+        "title": "New York Mets at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 333,
+        "title": "St. Louis Cardinals at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 335,
+        "title": "St. Louis Cardinals at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 336,
+        "title": "Columbus Crew SC at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 337,
+        "title": "St. Louis Cardinals at Chicago Cubs",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 340,
+        "title": "Toronto FC at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 341,
+        "title": "Utah Royals FC at Chicago Stars FC",
+        "location": "SeatGeek Stadium·Bridgeview, IL"
+      },
+      {
+        "id": 344,
+        "title": "Angel City FC at Chicago Stars FC",
+        "location": "SeatGeek Stadium·Bridgeview, IL"
+      },
+      {
+        "id": 345,
+        "title": "Michigan Wolverines at Northwestern Wildcats Football",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 346,
+        "title": "Minnesota Golden Gophers at Northwestern Wildcats Football",
+        "location": "Wrigley Field·Chicago, IL"
+      }
+    ]
+  },
+  {
+    "username": "Adi123",
+    "query": "Chicago Football",
+    "timestamp": "2025-04-22T17:56:43.885Z",
+    "results": []
+  },
+  {
+    "username": "Adi123",
+    "query": "Football",
+    "timestamp": "2025-04-22T17:56:55.606Z",
+    "results": [
+      {
+        "id": 270,
+        "title": "Los Angeles Football Club at Chicago Fire FC",
+        "location": "Soldier Field·Chicago, IL"
+      },
+      {
+        "id": 310,
+        "title": "Western Illinois Leathernecks at Northwestern Wildcats Football",
+        "location": "Lanny and Sharon Martin Stadium·Evanston, IL"
+      },
+      {
+        "id": 319,
+        "title": "Oregon Ducks at Northwestern Wildcats Football",
+        "location": "Lanny and Sharon Martin Stadium·Evanston, IL"
+      },
+      {
+        "id": 334,
+        "title": "UCLA Bruins at Northwestern Wildcats Football",
+        "location": "Lanny and Sharon Martin Stadium·Evanston, IL"
+      },
+      {
+        "id": 339,
+        "title": "Louisiana Monroe Warhawks at Northwestern Wildcats Football",
+        "location": "Lanny and Sharon Martin Stadium·Evanston, IL"
+      },
+      {
+        "id": 342,
+        "title": "Purdue Boilermakers at Northwestern Wildcats Football",
+        "location": "Lanny and Sharon Martin Stadium·Evanston, IL"
+      },
+      {
+        "id": 345,
+        "title": "Michigan Wolverines at Northwestern Wildcats Football",
+        "location": "Wrigley Field·Chicago, IL"
+      },
+      {
+        "id": 346,
+        "title": "Minnesota Golden Gophers at Northwestern Wildcats Football",
+        "location": "Wrigley Field·Chicago, IL"
+      }
+    ]
+  }
+]
