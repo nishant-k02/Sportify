@@ -32,10 +32,16 @@ function Login() {
         }
       );
       localStorage.setItem("token", response.data.token);
-      const { success, message } = response.data;
+      const { success, message, role } = response.data;
 
+      // const { success, message, role } = response.data;
+      console.log("Login Role:", role);
       if (success) {
-        navigate("/");
+        if (role === 1) {
+          navigate("/admin");
+        } else {
+          navigate("/");
+        }
       } else {
         alert(message);
       }

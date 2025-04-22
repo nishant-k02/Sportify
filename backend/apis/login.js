@@ -26,7 +26,9 @@ async function LoginApi(req, res) {
       token: token,
       success: true,
       message: "Login Successful",
+      role: user.role || 0, // send role explicitly, fallback to 0 if not present
     });
+    
     console.log(user);
   } catch (error) {
     console.log(error);

@@ -9,6 +9,7 @@ import UserProfile from "./components/UserProfile";
 import Event from "./pages/Events";
 import SingleEvent from "./pages/SingleEvent";
 import AIRecommend from "./pages/AIRecommend";
+import AdminDashboard from "./pages/AdminDashboard";
 
 function App() {
   const token = localStorage.getItem("token");
@@ -24,6 +25,7 @@ function App() {
           <Route path="/profile" element={<UserProfile />} />
           <Route path="/events/:id" element={<SingleEvent />} />
           <Route path="/recommend" element={<AIRecommend />} />
+          <Route path="/admin" element={<AdminDashboard />} />
           <Route
             path="/signup"
             element={!token ? <Signup /> : <Navigate to="/" />}

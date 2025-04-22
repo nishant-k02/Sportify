@@ -52,6 +52,7 @@ const Navbar = () => {
         { withCredentials: true }
       );
       localStorage.removeItem("token");
+
       setUser(null);
       navigate("/");
     } catch (error) {
