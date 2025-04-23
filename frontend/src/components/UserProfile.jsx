@@ -149,7 +149,7 @@ const UserProfile = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
+      <div className="flex  flex-col items-center justify-center min-h-screen bg-gray-50">
         <div className="bg-white shadow-lg rounded-lg p-8 w-full max-w-2xl">
           <div className="flex flex-col items-center">
             <img
@@ -178,7 +178,7 @@ const UserProfile = () => {
                 {location && (
                   <p className="text-gray-700 mb-1">
                     <strong>Location:</strong> {location.city},{" "}
-                    {location.country} ({location.ip})
+                    {location.country} {/* ({location.ip}) */}
                   </p>
                 )}
                 <button

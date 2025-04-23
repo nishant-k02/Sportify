@@ -50,7 +50,7 @@ Use this info to recommend the 2 or 3 best events for the user with a short expl
           },
           {
             headers: {
-              Authorization: `Bearer your-openai-api-key`,
+              Authorization: `Bearer your-openai-api-key`, // Replace with your OpenAI API key
               "Content-Type": "application/json",
             },
           }

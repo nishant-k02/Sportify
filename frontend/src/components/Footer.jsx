@@ -6,6 +6,7 @@ import {
   FaInstagram,
   FaTwitterSquare,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 // Example recommended events (replace with dynamic data as needed)
 const recommendedEvents = [
@@ -74,11 +75,37 @@ const Footer = () => {
       <div>
         <h6 className="font-medium">Company</h6>
         <ul>
-          <li className="py-2 text-sm">About</li>
-          <li className="py-2 text-sm">Blog</li>
-          <li className="py-2 text-sm">Jobs</li>
-          <li className="py-2 text-sm">Press</li>
-          <li className="py-2 text-sm">Careers</li>
+          <li className="py-2 text-sm">
+            <Link
+              to="/about"
+              className="px-4 py-2 rounded hover:bg-[#00df9a]/10 transition"
+            >
+              About
+            </Link>
+          </li>
+          <Link
+            to="/events"
+            className="px-4 py-2 rounded hover:bg-[#00df9a]/10 transition"
+          >
+            Events
+          </Link>
+
+          <li className="py-2 text-sm">
+            <Link
+              to="/contact"
+              className="px-4 py-2 rounded hover:bg-[#00df9a]/10 transition"
+            >
+              Contact Us
+            </Link>
+          </li>
+          <li className="py-2 text-sm">
+            <Link
+              to="/about"
+              className="px-4 py-2 rounded hover:bg-[#00df9a]/10 transition"
+            >
+              Careers
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

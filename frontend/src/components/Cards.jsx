@@ -46,7 +46,7 @@ const Cards = () => {
   return (
     <div className="w-full py-[6rem] px-4 bg-white">
       <h1 className="text-5xl font-bold text-center text-[#00df9a] mb-6">
-        Recommended Events {city && `in ${city}`}
+        Sports Events {city && `in ${city}`}
       </h1>
       {events.length > 3 && (
         <div className="flex justify-center mt-8">
