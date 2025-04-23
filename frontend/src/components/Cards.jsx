@@ -13,17 +13,17 @@ const Cards = () => {
   useEffect(() => {
     const fetchCityAndEvents = async () => {
       try {
-        const locationRes = await axios.get(
-          "http://localhost:8000/apis/location"
-        );
-        const userCity = locationRes.data.city;
-        setCity(userCity);
+        // const locationRes = await axios.get(
+        //   "http://localhost:8000/apis/location"
+        // );
+        // const userCity = locationRes.data.city;
+        // setCity(userCity);
 
         const eventsRes = await axios.get("http://localhost:8000/apis/events");
         const allEvents = eventsRes.data;
 
-        const cityEvents = allEvents.filter((event) =>
-          event.location.toLowerCase().includes(userCity.toLowerCase())
+        const cityEvents = allEvents.filter(
+          (event) => event.location.toLowerCase() //includes(userCity.toLowerCase())
         );
 
         setEvents(cityEvents);

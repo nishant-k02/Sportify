@@ -10,6 +10,8 @@ const { LoginApi } = require("./apis/login");
 const { profilePicUpload } = require("./multer/multerUpload");
 const express = require("express");
 const cors = require("cors");
+const fs = require("fs");       
+const path = require("path");
 // Add this near other route imports
 const historyRoutes = require("./apis/history");
 
@@ -90,6 +92,40 @@ app.get("/apis/location", async (req, res) => {
   }
 });
 
+//delete reviews enpoint
+app.delete("/admin/delete-comment", (req, res) => {
+  const { eventId, commentIndex } = req.body;
+
+  try {
+    const dataPath = path.join(__dirname, "data", "data.json");
+    const data = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
+
+    const eventIndex = data.findIndex((e) => e.id === eventId);
+    if (eventIndex === -1) {
+      return res.status(404).json({ error: "Event not found" });
+    }
+
+    // Validate comment index
+    if (
+      !Array.isArray(data[eventIndex].reviews) ||
+      commentIndex < 0 ||
+      commentIndex >= data[eventIndex].reviews.length
+    ) {
+      return res.status(400).json({ error: "Invalid comment index" });
+    }
+
+    // Remove the comment
+    data[eventIndex].reviews.splice(commentIndex, 1);
+
+    // Write updated data back
+    fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
+
+    return res.status(200).json({ message: "Comment deleted successfully" });
+  } catch (err) {
+    console.error("Error deleting comment:", err);
+    return res.status(500).json({ error: "Internal server error" });
+  }
+});
 
 //callback to connect MongoDB
 connectDB();
