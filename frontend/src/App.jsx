@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
@@ -13,6 +13,12 @@ import AdminDashboard from "./pages/AdminDashboard";
 
 function App() {
   const token = localStorage.getItem("token");
+  const [role, setRole] = React.useState(null);
+
+  useEffect(() => {
+    setRole(localStorage.getItem("role"));
+  }, []);
+  console.log("ROLE:", role);
 
   return (
     <>
@@ -25,7 +31,12 @@ function App() {
           <Route path="/profile" element={<UserProfile />} />
           <Route path="/events/:id" element={<SingleEvent />} />
           <Route path="/recommend" element={<AIRecommend />} />
-          <Route path="/admin" element={<AdminDashboard />} />
+          <Route
+            path="/admin"
+            element={
+              role === "1" ? <AdminDashboard /> : <Navigate to="/admin" />
+            }
+          />
           <Route
             path="/signup"
             element={!token ? <Signup /> : <Navigate to="/" />}

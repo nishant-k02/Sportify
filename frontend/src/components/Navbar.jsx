@@ -51,12 +51,14 @@ const Navbar = () => {
         {},
         { withCredentials: true }
       );
-      localStorage.removeItem("token");
-
+      // localStorage.removeItem("token");
+      localStorage.clear();
       setUser(null);
+      alert("Logged out successfully");
       navigate("/");
+      window.location.reload();
     } catch (error) {
-      localStorage.removeItem("token");
+      localStorage.clear();
       setUser(null);
       alert("Logged out successfully");
     }

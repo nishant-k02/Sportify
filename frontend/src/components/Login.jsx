@@ -3,20 +3,19 @@ import { React, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 function Login() {
-  // axios.defaults.withCredentials = true;
-
   const navigate = useNavigate();
 
   const [loginData, setLoginData] = useState({
     email: "",
     password: "",
+    role: "",
   });
 
   const handleLoginChange = (e) => {
     const { name, value } = e.target;
     setLoginData((prevData) => ({
       ...prevData,
-      [name]: value,
+      [name]: value, // Keep role as string to match DB ("0" or "1")
     }));
   };
 
@@ -31,14 +30,19 @@ function Login() {
           withCredentials: true,
         }
       );
-      localStorage.setItem("token", response.data.token);
-      const { success, message, role } = response.data;
 
-      // const { success, message, role } = response.data;
+      const { success, message, role, token } = response.data;
+
       console.log("Login Role:", role);
+
       if (success) {
-        if (role === 1) {
+        localStorage.setItem("token", token);
+        localStorage.setItem("role", role);
+        localStorage.setItem("email", loginData.email);
+
+        if (role === "1") {
           navigate("/admin");
+          window.location.reload();
         } else {
           navigate("/");
         }
@@ -56,6 +60,7 @@ function Login() {
     setLoginData({
       email: "",
       password: "",
+      role: "",
     });
   };
 
@@ -99,6 +104,25 @@ function Login() {
               placeholder="Enter your password..."
               required
             />
+          </div>
+          <div>
+            <label
+              htmlFor="role"
+              className="block text-sm font-medium text-gray-700"
+            >
+              Role:
+            </label>
+            <select
+              name="role"
+              value={loginData.role}
+              onChange={handleLoginChange}
+              className="w-full mt-1 px-4 py-2 border border-gray-300 rounded-md"
+              required
+            >
+              <option value="">Select role...</option>
+              <option value="0">User</option>
+              <option value="1">Admin</option>
+            </select>
           </div>
           <button
             type="submit"

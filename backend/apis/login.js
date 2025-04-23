@@ -8,8 +8,8 @@ async function LoginApi(req, res) {
     const db = await connectDB();
     const collection = db.collection("users");
 
-    const { email, password } = req.body;
-    const user = await collection.findOne({ email, password });
+    const { email, password, role } = req.body;
+    const user = await collection.findOne({ email, password, role });
 
     if (!user) {
       return res
@@ -26,9 +26,9 @@ async function LoginApi(req, res) {
       token: token,
       success: true,
       message: "Login Successful",
-      role: user.role || 0, // send role explicitly, fallback to 0 if not present
+      role: user.role,
     });
-    
+
     console.log(user);
   } catch (error) {
     console.log(error);

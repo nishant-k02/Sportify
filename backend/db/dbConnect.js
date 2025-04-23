@@ -4,7 +4,7 @@ const MongoClient = require("mongodb").MongoClient;
 const connectDB = async () => {
   try {
     const client = await MongoClient.connect(
-      "your_mongodb_connection_string",
+      "your-mongodb-connection-string",
     );
     console.log("DB Connected!");
     return client.db(); // Return the danishant-k02/frontendtabase object for further usage
