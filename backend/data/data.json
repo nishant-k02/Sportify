@@ -6,7 +6,13 @@
     "location": "Gentile Arena·Chicago, IL",
     "price": "$1",
     "id": 1,
-    "reviews": []
+    "reviews": [
+      {
+        "reviewer": "Adi123",
+        "comment": "enjoyed",
+        "date": "2025-04-23T09:11:56.655Z"
+      }
+    ]
   },
   {
     "title": "Wisconsin Badgers at Northwestern Wildcats Mens Basketball",
@@ -18,8 +24,8 @@
     "reviews": [
       {
         "reviewer": "Adi123",
-        "comment": "enjoyed the game\n",
-        "date": "2025-04-23T08:29:56.421Z"
+        "comment": "good event",
+        "date": "2025-04-23T09:11:42.144Z"
       }
     ]
   },
@@ -48,7 +54,13 @@
     "location": "Allstate Arena·Rosemont, IL",
     "price": "$20",
     "id": 5,
-    "reviews": []
+    "reviews": [
+      {
+        "reviewer": "Nishant",
+        "comment": "nice event",
+        "date": "2025-04-23T09:13:45.109Z"
+      }
+    ]
   },
   {
     "title": "Michigan State Spartans at Northwestern Wildcats Womens Basketball",
@@ -2433,13 +2445,7 @@
     "location": "Soldier Field·Chicago, IL",
     "price": "$26",
     "id": 270,
-    "reviews": [
-      {
-        "reviewer": "Adi77",
-        "comment": "THis is good event",
-        "date": "2025-04-22T16:53:39.692Z"
-      }
-    ]
+    "reviews": []
   },
   {
     "title": "Bay FC at Chicago Stars FC",

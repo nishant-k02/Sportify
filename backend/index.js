@@ -127,6 +127,43 @@ app.delete("/admin/delete-comment", (req, res) => {
   }
 });
 
+//bulk delete reviews endpoint
+app.post("/admin/bulk-delete-comments", (req, res) => {
+  const { selectedComments } = req.body;
+  const fs = require("fs");
+  const path = require("path");
+
+  try {
+    const dataPath = path.join(__dirname, "data", "data.json");
+    const data = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
+
+    const grouped = {};
+    selectedComments.forEach(({ eventId, commentIndex }) => {
+      if (!grouped[eventId]) grouped[eventId] = [];
+      grouped[eventId].push(commentIndex);
+    });
+
+    for (const eventId in grouped) {
+      const idx = data.findIndex((e) => e.id === parseInt(eventId));
+      if (idx !== -1 && Array.isArray(data[idx].reviews)) {
+        grouped[eventId].sort((a, b) => b - a);
+        grouped[eventId].forEach((commentIndex) => {
+          if (data[idx].reviews[commentIndex]) {
+            data[idx].reviews.splice(commentIndex, 1);
+          }
+        });
+      }
+    }
+
+    fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
+    return res.status(200).json({ message: "Comments deleted successfully" });
+  } catch (err) {
+    console.error("Bulk delete error:", err);
+    return res.status(500).json({ error: "Failed to delete comments" });
+  }
+});
+
+
 //callback to connect MongoDB
 connectDB();
 
