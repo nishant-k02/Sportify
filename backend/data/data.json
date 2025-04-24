@@ -26,6 +26,11 @@
         "reviewer": "testing",
         "comment": "This is good event.",
         "date": "2025-04-24T18:41:16.876Z"
+      },
+      {
+        "reviewer": "NishantKandhar",
+        "comment": "I love the basketball Game.",
+        "date": "2025-04-24T20:03:57.816Z"
       }
     ]
   },
@@ -36,7 +41,13 @@
     "location": "Credit Union 1 Arena at UIC·Chicago, IL",
     "price": "$56",
     "id": 3,
-    "reviews": []
+    "reviews": [
+      {
+        "reviewer": "NishantK",
+        "comment": "I love the basketball game.",
+        "date": "2025-04-24T20:34:48.518Z"
+      }
+    ]
   },
   {
     "title": "Seton Hall Pirates at DePaul Blue Demons Womens Basketball",
@@ -45,7 +56,13 @@
     "location": "Wintrust Arena·Chicago, IL",
     "price": "$1",
     "id": 4,
-    "reviews": []
+    "reviews": [
+      {
+        "reviewer": "NishantKan",
+        "comment": "I love the basketball game.",
+        "date": "2025-04-24T20:46:20.119Z"
+      }
+    ]
   },
   {
     "title": "Manitoba Moose at Chicago Wolves",
@@ -2439,13 +2456,7 @@
     "location": "Soldier Field·Chicago, IL",
     "price": "$26",
     "id": 270,
-    "reviews": [
-      {
-        "reviewer": "Aditya Savaliya",
-        "comment": "I love the football game, and Los Angeles Football Club.",
-        "date": "2025-04-24T19:05:42.195Z"
-      }
-    ]
+    "reviews": []
   },
   {
     "title": "Bay FC at Chicago Stars FC",
