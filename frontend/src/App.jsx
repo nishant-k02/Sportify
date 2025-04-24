@@ -11,6 +11,7 @@ import SingleEvent from "./pages/SingleEvent";
 import AIRecommend from "./pages/AIRecommend";
 import AdminDashboard from "./pages/AdminDashboard";
 import DeleteComments from "./pages/DeleteComments";
+import ManageUsers from "./pages/ManageUsers";
 
 function App() {
   const token = localStorage.getItem("token");
@@ -32,6 +33,7 @@ function App() {
           <Route path="/profile" element={<UserProfile />} />
           <Route path="/events/:id" element={<SingleEvent />} />
           <Route path="/recommend" element={<AIRecommend />} />
+          <Route path="/admin/manage-users" element={<ManageUsers />} />
           <Route path="/admin/delete-comments" element={<DeleteComments />} />
           <Route
             path="/admin"

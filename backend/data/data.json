@@ -8,9 +8,9 @@
     "id": 1,
     "reviews": [
       {
-        "reviewer": "Adi123",
-        "comment": "enjoyed",
-        "date": "2025-04-23T09:11:56.655Z"
+        "reviewer": "testing",
+        "comment": "I love the basketball game.",
+        "date": "2025-04-24T18:50:36.754Z"
       }
     ]
   },
@@ -23,9 +23,9 @@
     "id": 2,
     "reviews": [
       {
-        "reviewer": "Adi123",
-        "comment": "good event",
-        "date": "2025-04-23T09:11:42.144Z"
+        "reviewer": "testing",
+        "comment": "This is good event.",
+        "date": "2025-04-24T18:41:16.876Z"
       }
     ]
   },
@@ -54,13 +54,7 @@
     "location": "Allstate Arena·Rosemont, IL",
     "price": "$20",
     "id": 5,
-    "reviews": [
-      {
-        "reviewer": "Nishant",
-        "comment": "nice event",
-        "date": "2025-04-23T09:13:45.109Z"
-      }
-    ]
+    "reviews": []
   },
   {
     "title": "Michigan State Spartans at Northwestern Wildcats Womens Basketball",
@@ -2445,7 +2439,13 @@
     "location": "Soldier Field·Chicago, IL",
     "price": "$26",
     "id": 270,
-    "reviews": []
+    "reviews": [
+      {
+        "reviewer": "Aditya Savaliya",
+        "comment": "I love the football game, and Los Angeles Football Club.",
+        "date": "2025-04-24T19:05:42.195Z"
+      }
+    ]
   },
   {
     "title": "Bay FC at Chicago Stars FC",

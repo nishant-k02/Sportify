@@ -10,16 +10,17 @@ const { LoginApi } = require("./apis/login");
 const { profilePicUpload } = require("./multer/multerUpload");
 const express = require("express");
 const cors = require("cors");
-const fs = require("fs");       
+const fs = require("fs");
 const path = require("path");
 // Add this near other route imports
 const historyRoutes = require("./apis/history");
+const { ViewusersData } = require("./apis/viewUsers");
+const { DeleteUser } = require("./apis/deleteUser");
 
 const session = require("express-session");
 const multer = require("multer");
 const { updateProfileApi } = require("./apis/updateProfile");
 const aiRoutes = require("./apis/aiRecommendationData");
-
 
 //initialize app
 const app = express();
@@ -71,6 +72,8 @@ const eventsRoute = require("./apis/events");
 app.use("/apis/events", eventsRoute);
 app.use("/apis/ai", aiRoutes);
 
+app.get("/getUsers", ViewusersData);
+app.post("/delete-user", DeleteUser);
 
 // Add this after other app.use() calls
 app.use("/apis/history", historyRoutes);
@@ -162,7 +165,6 @@ app.post("/admin/bulk-delete-comments", (req, res) => {
     return res.status(500).json({ error: "Failed to delete comments" });
   }
 });
-
 
 //callback to connect MongoDB
 connectDB();

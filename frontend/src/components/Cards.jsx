@@ -3,19 +3,18 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const Cards = () => {
-  // eslint-disable-next-line
+  //eslint-disable-next-line
   const [city, setCity] = useState(null);
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(true);
   const [showAll, setShowAll] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false); // Track login status
   const navigate = useNavigate();
 
   useEffect(() => {
     const fetchCityAndEvents = async () => {
       try {
-        // const locationRes = await axios.get(
-        //   "http://localhost:8000/apis/location"
-        // );
+        // const locationRes = await axios.get("http://localhost:8000/apis/location");
         // const userCity = locationRes.data.city;
         // setCity(userCity);
 
@@ -23,7 +22,7 @@ const Cards = () => {
         const allEvents = eventsRes.data;
 
         const cityEvents = allEvents.filter(
-          (event) => event.location.toLowerCase() //includes(userCity.toLowerCase())
+          (event) => event.location.toLowerCase() // includes(userCity.toLowerCase())
         );
 
         setEvents(cityEvents);
@@ -34,11 +33,21 @@ const Cards = () => {
       }
     };
 
+    const checkLoginStatus = () => {
+      const token = localStorage.getItem("token");
+      setIsLoggedIn(!!token);
+    };
+
+    checkLoginStatus();
     fetchCityAndEvents();
   }, []);
 
   const handleViewDetails = (id) => {
-    navigate(`/events/${id}`);
+    if (isLoggedIn) {
+      navigate(`/events/${id}`);
+    } else {
+      navigate("/login");
+    }
   };
 
   const displayedEvents = showAll ? events : events.slice(0, 3);
@@ -48,6 +57,7 @@ const Cards = () => {
       <h1 className="text-5xl font-bold text-center text-[#00df9a] mb-6">
         Sports Events {city && `in ${city}`}
       </h1>
+
       {events.length > 3 && (
         <div className="flex justify-center mt-8">
           <button
@@ -58,6 +68,7 @@ const Cards = () => {
           </button>
         </div>
       )}
+
       {loading ? (
         <p className="text-center text-gray-600 text-lg">Loading events...</p>
       ) : events.length > 0 ? (

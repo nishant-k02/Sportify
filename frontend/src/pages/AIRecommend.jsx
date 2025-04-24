@@ -26,18 +26,20 @@ const AIRecommend = () => {
           latestSearch?.results?.map((r) => r.title).join(", ") || "";
 
         const prompt = `
-You are an AI assistant helping users choose local sports events.
+You are an AI assistant helping users choose local sports events based on user location, history, and user reviews. Also, use history.json data and data.json events to recommend events. Moreover, data.json file have reviews, so use them to recommend events with other features.
 
 User Location: ${userLocation}
 Recent Search Query: ${searchQuery}
-Events Clicked: ${clickedTitles}
+Clicked Event Titles: ${clickedTitles}
 Price Range: ${latestSearch?.priceRange || "any"}
 Precise Location: ${latestSearch?.location || "any"}
 
 Event List:
-${events.map((e) => `- ${e.title} (${e.location}, ${e.price})`).join("\n")}
+${events
+  .map((e) => `- ${e.title} (${e.location}, ${e.price}, ${e.date})`)
+  .join("\n")}
 
-Use this info to recommend the 2 or 3 best events for the user with a short explanation.
+Use this info to recommend the 5 best events for the user with a short explanation.
 `;
 
         const response = await axios.post(
@@ -45,7 +47,7 @@ Use this info to recommend the 2 or 3 best events for the user with a short expl
           {
             model: "gpt-3.5-turbo",
             messages: [{ role: "user", content: prompt }],
-            max_tokens: 300,
+            max_tokens: 500,
             temperature: 0.7,
           },
           {

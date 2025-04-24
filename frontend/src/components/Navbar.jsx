@@ -281,6 +281,14 @@ const Navbar = () => {
           >
             Home
           </Link>
+          {user && (
+            <Link
+              to="/recommend"
+              className="px-4 py-2 rounded hover:bg-[#00df9a]/10 transition"
+            >
+              Ask Sportify
+            </Link>
+          )}
           <Link
             to="/services"
             className="p-4 hover:bg-[#00df9a]/10"
@@ -295,13 +303,13 @@ const Navbar = () => {
           >
             About
           </Link>
-          <Link
+          {/* <Link
             to="/contact"
             className="p-4 hover:bg-[#00df9a]/10"
             onClick={() => setNav(false)}
           >
             Contact
-          </Link>
+          </Link> */}
         </div>
         <div className="p-4">
           {user ? (
