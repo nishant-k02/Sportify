@@ -51,7 +51,7 @@ const Navbar = () => {
         {},
         { withCredentials: true }
       );
-      // localStorage.removeItem("token");
+      localStorage.removeItem("token");
       localStorage.clear();
       setUser(null);
       alert("Logged out successfully");
@@ -60,6 +60,8 @@ const Navbar = () => {
     } catch (error) {
       localStorage.clear();
       setUser(null);
+      navigate("/");
+      window.location.reload();
       alert("Logged out successfully");
     }
   };
