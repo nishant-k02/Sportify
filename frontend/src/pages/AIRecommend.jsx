@@ -52,7 +52,7 @@ Use this info to recommend the 5 best events for the user with a short explanati
           },
           {
             headers: {
-              Authorization: `Bearer your-openai-api-key`, // Replace with your OpenAI API key
+              Authorization: `Bearer ${process.env.REACT_APP_OPENAI_API_KEY}`,
               "Content-Type": "application/json",
             },
           }

@@ -48,7 +48,9 @@ function Signup() {
       }
     } catch (error) {
       if (error.response && error.response.status === 400) {
-        alert("Email Already Exists!");
+        alert("Bad request: Missing or invalid fields");
+      } else if (error.response && error.response.status === 409) {
+        alert("User with this email already exists!");
       } else {
         alert("Error: Failed to connect to server");
       }
