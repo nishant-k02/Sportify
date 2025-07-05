@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
+import config from '../config/config';
 
 function Signup() {
   const navigate = useNavigate();
@@ -38,7 +39,7 @@ function Signup() {
         data.append(key, registrationData[key]);
       }
 
-      const response = await axios.post("http://localhost:8000/signup", data);
+      const response = await axios.post(`${config.API_URL}/signup`, data);
 
       if (response.data.success) {
         alert("Registered Successfully!");

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import config from '../config/config';
 import { useNavigate } from "react-router-dom";
 
 const Cards = () => {
@@ -14,11 +15,11 @@ const Cards = () => {
   useEffect(() => {
     const fetchCityAndEvents = async () => {
       try {
-        // const locationRes = await axios.get("http://localhost:8000/apis/location");
+        // const locationRes = await axios.get(`${config.API_URL}/apis/location`);
         // const userCity = locationRes.data.city;
         // setCity(userCity);
 
-        const eventsRes = await axios.get("http://localhost:8000/apis/events");
+        const eventsRes = await axios.get(`${config.API_URL}/apis/events`);
         const allEvents = eventsRes.data;
 
         const cityEvents = allEvents.filter(

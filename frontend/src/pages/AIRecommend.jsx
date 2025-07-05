@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import config from '../config/config';
 import Navbar from "../components/Navbar";
 
 const AIRecommend = () => {
@@ -10,12 +11,12 @@ const AIRecommend = () => {
     const fetchAndRecommend = async () => {
       setLoading(true);
       try {
-        const locRes = await axios.get("http://localhost:8000/apis/location");
+        const locRes = await axios.get(`${config.API_URL}/apis/location`);
         const userLocation = `${locRes.data.city}, ${locRes.data.region}`;
 
         const [eventsRes, historyRes] = await Promise.all([
-          axios.get("http://localhost:8000/apis/ai/events"),
-          axios.get("http://localhost:8000/apis/ai/history"),
+          axios.get(`${config.API_URL}/apis/ai/events`),
+          axios.get(`${config.API_URL}/apis/ai/history`),
         ]);
 
         const events = eventsRes.data;

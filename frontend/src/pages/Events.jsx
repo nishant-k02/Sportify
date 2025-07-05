@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import axios from "axios";
+import config from '../config/config';
 import { Link } from "react-router-dom";
 
 const categories = [
@@ -31,7 +32,7 @@ const Event = () => {
         const categoryQuery =
           category !== "All" ? `?category=${encodeURIComponent(category)}` : "";
         const res = await axios.get(
-          `http://localhost:8000/apis/events${categoryQuery}`
+          `${config.API_URL}/apis/events${categoryQuery}`
         );
         setEvents(res.data);
       } catch (err) {

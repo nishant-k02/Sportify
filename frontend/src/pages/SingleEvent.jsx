@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import axios from "axios";
+import config from '../config/config';
 
 const SingleEvent = () => {
   const { id } = useParams();
@@ -16,7 +17,7 @@ const SingleEvent = () => {
   // Fetch event details
   const fetchEvent = async () => {
     try {
-      const res = await axios.get(`http://localhost:8000/apis/events/${id}`);
+      const res = await axios.get(`${config.API_URL}/apis/events/${id}`);
       setEvent(res.data);
       saveEventToHistory(res.data); // Save the event to history when it's loaded
     } catch (err) {
@@ -35,7 +36,7 @@ const SingleEvent = () => {
     }
     try {
       axios.defaults.headers.common["Authorization"] = `Bearer ${token}`;
-      const response = await axios.get("http://localhost:8000/session", {
+      const response = await axios.get(`${config.API_URL}/session`, {
         withCredentials: true,
       });
       if (response.data.sessionData) {
@@ -60,7 +61,7 @@ const SingleEvent = () => {
     if (user && token) {
       try {
         await axios.post(
-          `http://localhost:8000/apis/history/${user.username}`,
+          `${config.API_URL}/apis/history/${user.username}`,
           { event: eventData },
           {
             headers: {
@@ -80,7 +81,7 @@ const SingleEvent = () => {
     if (!user || !user.username || !comment.trim()) return;
     try {
       await axios.post(
-        `http://localhost:8000/apis/events/${id}/review`,
+        `${config.API_URL}/apis/events/${id}/review`,
         {
           reviewer: user.username,
           comment,

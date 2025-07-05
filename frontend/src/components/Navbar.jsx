@@ -3,6 +3,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaTrophy } from "react-icons/fa";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import axios from "axios";
+import config from '../config/config';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -22,7 +23,7 @@ const Navbar = () => {
       }
       try {
         axios.defaults.headers.common["Authorization"] = `Bearer ${token}`;
-        const response = await axios.get("http://localhost:8000/session", {
+        const response = await axios.get(`${config.API_URL}/session`, {
           withCredentials: true,
         });
         if (response.data.sessionData) {
@@ -47,7 +48,7 @@ const Navbar = () => {
     e.preventDefault();
     try {
       await axios.post(
-        "http://localhost:8000/logout",
+        `${config.API_URL}/logout`,
         {},
         { withCredentials: true }
       );
@@ -77,7 +78,7 @@ const Navbar = () => {
     try {
       // 1. Perform the search
       const res = await axios.post(
-        "http://localhost:8000/apis/search",
+        `${config.API_URL}/apis/search`,
         { query: search },
         {
           headers: {
@@ -94,7 +95,7 @@ const Navbar = () => {
       if (user?.username) {
         try {
           await axios.post(
-            "http://localhost:8000/apis/history",
+            `${config.API_URL}/apis/history`,
             {
               username: user.username,
               query: search,

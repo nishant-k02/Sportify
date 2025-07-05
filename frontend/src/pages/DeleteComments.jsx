@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import config from '../config/config';
 import Navbar from "../components/Navbar";
 
 const DeleteComments = () => {
@@ -12,7 +13,7 @@ const DeleteComments = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await axios.get("http://localhost:8000/apis/ai/events");
+      const res = await axios.get(`${config.API_URL}/apis/ai/events`);
       setEvents(res.data);
     };
     fetchData();
@@ -28,7 +29,7 @@ const DeleteComments = () => {
       const { eventId, commentIndex } = selectedComment;
       await axios({
         method: "delete",
-        url: "http://localhost:8000/admin/delete-comment",
+        url: `${config.API_URL}/admin/delete-comment`,
         data: { eventId, commentIndex },
       });
 
@@ -52,7 +53,7 @@ const DeleteComments = () => {
 
   const handleBulkDelete = async () => {
     try {
-      await axios.post("http://localhost:8000/admin/bulk-delete-comments", {
+      await axios.post(`${config.API_URL}/admin/bulk-delete-comments`, {
         selectedComments,
       });
 

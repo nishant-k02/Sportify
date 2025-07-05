@@ -26,14 +26,16 @@ const aiRoutes = require("./apis/aiRecommendationData");
 const app = express();
 
 //initialize PORT No
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 //Middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: process.env.NODE_ENV === 'production' 
+      ? [process.env.FRONTEND_URL, "https://your-frontend-url.vercel.app"]
+      : "http://localhost:3000",
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],

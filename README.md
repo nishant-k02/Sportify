@@ -85,3 +85,51 @@ npm start
 ```
 
 ---
+
+## 🚀 Deployment (Vercel)
+
+Sportify is configured for deployment on Vercel with serverless functions.
+
+### Prerequisites
+
+1. **Vercel Account**: Sign up at [vercel.com](https://vercel.com)
+2. **MongoDB Database**: Set up MongoDB Atlas or your preferred MongoDB service
+3. **OpenAI API Key**: Get your API key from [OpenAI](https://platform.openai.com)
+
+### Environment Variables
+
+Set these environment variables in your Vercel project:
+
+**Backend:**
+```env
+MONGO_URI=mmongodb_key
+FRONTEND_URL=https://your-frontend-url.vercel.app
+JWT_SECRET=your-jwt-secret-key
+NODE_ENV=production
+```
+
+**Frontend:**
+```env
+REACT_APP_API_URL=https://your-backend-url.vercel.app
+REACT_APP_OPENAI_API_KEY=your-openai-api-key
+```
+
+### Quick Deploy
+
+1. **Push to GitHub:**
+   ```bash
+   git add .
+   git commit -m "Ready for Vercel deployment"
+   git push origin main
+   ```
+
+2. **Deploy via Vercel Dashboard:**
+   - Go to [vercel.com/dashboard](https://vercel.com/dashboard)
+   - Click "New Project"
+   - Import your GitHub repository
+   - Set environment variables
+   - Deploy!
+
+For detailed deployment instructions, see [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md).
+
+---

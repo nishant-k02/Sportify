@@ -1,4 +1,5 @@
 import axios from "axios";
+import config from '../config/config';
 axios.defaults.withCredentials = true;
 
 const checkSession = async () => {
@@ -6,7 +7,7 @@ const checkSession = async () => {
   try {
     console.log("Logging");
     const response = await axios.post(
-      "http://localhost:8000/session",
+      `${config.API_URL}/session`,
       {},
       { headers: { Authorization: `Bearer ${token}` } }
     );

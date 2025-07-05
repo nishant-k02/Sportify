@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import config from '../config/config';
 import Navbar from "../components/Navbar";
 
 const ManageUsers = () => {
@@ -10,7 +11,7 @@ const ManageUsers = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const res = await axios.get("http://localhost:8000/getUsers");
+        const res = await axios.get(`${config.API_URL}/getUsers`);
         setUsers(res.data.data);
       } catch (err) {
         console.error("Failed to fetch users:", err);
@@ -34,7 +35,7 @@ const ManageUsers = () => {
       }
 
       await axios.post(
-        "http://localhost:8000/delete-user",
+        `${config.API_URL}/delete-user`,
         { deleteUserId: selectedUser },
         {
           headers: {

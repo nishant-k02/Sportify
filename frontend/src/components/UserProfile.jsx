@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import config from '../config/config';
 import Navbar from "./Navbar";
 
 const UserProfile = () => {
@@ -22,7 +23,7 @@ const UserProfile = () => {
       }
 
       try {
-        const response = await axios.get("http://localhost:8000/session", {
+        const response = await axios.get(`${config.API_URL}/session`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -40,7 +41,7 @@ const UserProfile = () => {
           // Fetching search history based on user's username
           try {
             const histRes = await axios.get(
-              `http://localhost:8000/apis/history/${userData.username}`,
+              `${config.API_URL}/apis/history/${userData.username}`,
               {
                 headers: {
                   Authorization: `Bearer ${token}`,
@@ -107,8 +108,8 @@ const UserProfile = () => {
   }
 
   const profilePicUrl = user.profilePic
-    ? `http://localhost:8000/images/profilePic/${user.profilePic}`
-    : "https://ui-avatars.com/api/?name=" + user.username;
+    ? `${config.API_URL}/images/profilePic/${user.profilePic}`
+    : `https://ui-avatars.com/api/?name=${user.username}`;
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -121,7 +122,7 @@ const UserProfile = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/updateProfile",
+        `${config.API_URL}/updateProfile`,
         { username: form.username },
         {
           headers: {
