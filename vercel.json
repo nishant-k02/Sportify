@@ -22,16 +22,5 @@
       "src": "/(.*)",
       "dest": "/frontend/build/$1"
     }
-  ],
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/backend/index.js"
-    }
-  ],
-  "functions": {
-    "backend/index.js": {
-      "maxDuration": 30
-    }
-  }
+  ]
 } 
